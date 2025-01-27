@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<div class="navigation">
+    <a class="navlink" href="/profile">Профиль</a>
+    <a href="/" class="logo" title="logo">
+        <img src="https://imgur.com/WHY5bWR.png" alt="Logo" width="277" height="48">
+    </a>
+    <a class="navlink" href="/admin">Админка</a>
+
+</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiting for Approval</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'waiting.css' %}">
+</head>
+<body>
+    {% block content %}
+    <h2>Администратор скоро примет вашу заявку.</h2>
+    <h1>наверное...</h1>
+    <p>Ожидайте</p>
+
+    {% endblock %}
+</body>
+</html>

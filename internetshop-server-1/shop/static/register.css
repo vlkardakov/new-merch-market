@@ -1,0 +1,55 @@
+.container {
+    height: 600px;
+    background-color: rgba(26, 26, 26, 0.8);
+    padding: 50px; /* Уменьшите значение padding */
+    padding-top: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box; /* Включение padding и border в общую высоту и ширину */
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+button.register-btn {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 200px;
+    align-self: center;
+}
+
+button.register-btn:hover {
+    background-color: #0056b3;
+}
+
+.form-group {
+    min-width: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input::placeholder {
+    color: #aaa;
+}

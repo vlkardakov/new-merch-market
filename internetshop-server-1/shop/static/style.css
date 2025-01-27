@@ -1,0 +1,212 @@
+
+
+@font-face {
+    font-family: 'Gramatika-Medium';
+    src: url('/static/fonts/custom_font.ttf') format('truetype');
+}
+
+img {
+  border-radius: 10px;
+}
+
+html, body {
+  background: url('/static/BACKGROUND2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family: 'Gramatika-Medium', sans-serif;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  color: white;
+}
+
+h1, h2, h3, p, label {
+  margin: 10px 0;
+  font-weight: normal;
+  color: white;
+  font-family: 'Gramatika-Medium', sans-serif;
+  text-decoration: none;
+}
+
+.white-text {
+    color: white;
+}
+
+
+
+.logo {
+    background-color: rgba(26, 26, 26, 0);
+}
+
+/* Стили для навигации */
+.navigation {
+  background-color: rgba(26, 26, 26, 0.8);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation a {
+  color: #0021f3; /* Синий цвет ссылок */
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navigation img {
+  margin-right: 20px; /* Отступ справа от логотипа */
+}
+
+
+/* Стили для блока с продуктами */
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product {
+  width: 200px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.productImage {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.productTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.productDescription {
+  font-size: 16px;
+  margin-bottom: 10px;
+  max-width: 500px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  color: white;
+  line-height: 1.6;
+  text-align: left;
+  white-space: normal;
+  height: 100px;
+  overflow: hidden; /* Скрывает лишний текст */
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.price button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.price button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Стиль для формы оплаты */
+.paymentCard {
+  width: 300px;
+  margin: 20px auto;
+  background-color: rgba(26, 26, 26, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  overflow: hidden; /* Скрывает лишний текст */
+}
+
+.paymentForm input, .paymentForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.paymentForm label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.paymentButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.paymentButton:hover {
+  background-color: #0056b3;
+}
+
+.filter {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: rgba(26, 26, 26, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}

@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+
+.navlink {
+    margin: 0 22.5px; /* Increase the margin */
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5em; /* Increase font size */
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.searchInput {
+    padding: 15px;
+    font-size: 24px; /* Increase font size */
+    border: 1px solid #ccc;
+    border-radius: 7.5px; /* Adjust border radius */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 7.5px; /* Adjust border radius */
+    cursor: pointer;
+    padding: 15px 22.5px; /* Increase padding */
+    margin-left: 7.5px; /* Adjust margin */
+    font-size: 24px; /* Increase font size */
+}
+
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 7.5px; /* Adjust border radius */
+    margin: 15px;
+    padding: 15px;
+    width: 90%; /* Adjust width for better responsiveness */
+    box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+.productPreview {
+    width: 100%;
+    height: auto;
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align to top */
+    margin-right: auto; 
+}
+
+.productDetails h2 {
+    font-size: 2.25em; /* Increase title font size */
+}
+
+.productDetails p {
+    font-size: 1.5em; /* Increase description font size */
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align to the left */
+    margin-left: auto; /* Push to the far right */
+}
+
+.price h3 {
+    font-size: 2em; /* Increase price font size */
+}
+
+.no-products {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.no-products svg {
+    margin-bottom: 15px; /* Adjust spacing below SVG */
+}
