@@ -6,6 +6,7 @@
     <title>СвITеР</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'product.css' %}">
 </head>
 
 <div class="navigation">
@@ -86,7 +87,7 @@ button {
         {% if user.is_authenticated %}
             <p>Текущий аккаунт: {{ user.username }}</p>
             <p>Баланс: {{ user.balance }}</p>
-            <button onclick="location.href='/admin';">Админка</button>
+            <button style="" onclick="location.href='/admin';">Админка</button>
             <button onclick="location.href='/logout';">Выйти</button>
         {% else %}
             <button onclick="location.href='/login';">Войти</button>

@@ -79,7 +79,7 @@ button {
         <span class="close" onclick="toggleMenu()">&times;</span>
         {% if user.is_authenticated %}
             <p>Текущий аккаунт: {{ user.username }}</p>
-            <p>Баланс: {{ user.profile.balance }}</p>
+            <p>Баланс: {{ user.balance }}</p>
             <button onclick="location.href='/admin';">Админка</button>
             <button onclick="location.href='/logout';">Выйти</button>
         {% else %}
